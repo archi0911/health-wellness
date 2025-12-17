@@ -3,3 +3,8 @@
     width: 1200;
     height: 500;
 }
+#section1 {
+  background-image: url(html_task_pictures/pexels-photo-5965948.jpeg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
