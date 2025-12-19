@@ -1,3 +1,4 @@
+/* Navigation Bar */
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -6,11 +7,11 @@
   text-decoration: none;
   font-size: 17px;
 }
-
 #home-button {
   color: red;
 }
 
+/* Section 1 */
 #homepage-background {
   background-image: url("html_task_pictures/pexels-photo-5965948.jpeg");
   min-height: 600px;
@@ -19,3 +20,13 @@
   background-size: cover;
 
  }
+
+ /* Seasonal Fruits & Veg */
+#seasonal-heading {
+  color: rgb(216, 6, 6);
+}
+
+#seasonal-fruit-table {
+  margin: 0;
+}
+
