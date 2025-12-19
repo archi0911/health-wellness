@@ -19,3 +19,29 @@
   background-size: cover;
 
  }
+
+#section-4{
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.flex-container {
+    display: flex; 
+    justify-content: space-around; 
+    height: 50px;
+    width: 30px;
+  
+}
+
+.image-block {
+   height: 100%;
+   width: 70%;
+   
+}
+
+.text-block {
+  flex: 1; 
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: rgb(242, 238, 236);
+}
