@@ -19,3 +19,17 @@
   background-size: cover;
 
  }
+
+
+ /* Section 3 */
+
+ /* .navbar-brand {
+  background-image: url(html_task_pictures/pexels-photo-4038777.jpeg);
+ 
+ } */
+
+
+ .navbar bg-body-tertiary {
+  height: 100px;
+  background-image: url(html_task_pictures/pexels-photo-4038777.jpeg);
+ }
