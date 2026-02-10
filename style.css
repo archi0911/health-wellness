@@ -12,7 +12,6 @@
 }
 
 #homepage-background {
-  background-image: url("html_task_pictures/pexels-photo-5965948.jpeg");
   min-height: 600px;
   background-position: center;
   background-repeat: no-repeat;
@@ -27,50 +26,6 @@
   padding-left: 15px;
     
  }
-
-
-/* .red {
-  height: 250px;
-  width: 200px;
-  margin-bottom: 15px;
-  border: 1px solid rgb(251, 251, 251);
-  background-color: rgb(202, 20, 20);
-  float: right;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 30px;
-  
-}
-
-.green {
-  height: 250px;
-  width: 200px;
-  margin-bottom: 15px;
-  border: 1px solid rgb(251, 251, 251);
-  background-color: rgb(48, 98, 51);
-  float: right;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 30px;
-  
-}
-
-.black {
-  color: #ffffff;
-  height: 250px;
-  width: 200px;
-  margin-bottom: 15px;
-  border: 1px solid rgb(251, 251, 251);
-  background-color: rgb(0, 0, 0);
-  float: right;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 30px;
-  
-} */
 
 #read-more {
   border-color: orangered;
