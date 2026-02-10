@@ -1,3 +1,4 @@
+/* Navigation Bar */
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -6,11 +7,11 @@
   text-decoration: none;
   font-size: 17px;
 }
-
 #home-button {
   color: red;
 }
 
+/* Section 1 */
 #homepage-background {
   min-height: 600px;
   background-position: center;
@@ -27,11 +28,12 @@
     
  }
 
+/* Section 2  */
+/* Weightloss linked to Healthy Eating */
 #read-more {
   border-color: orangered;
   color: orangered;
 }
-
 
 .container {
   display: flex;
@@ -74,6 +76,8 @@
 
 }
 
+/* Section 4  */
+/* 25 Simple Tips to make Your Diet Healthier */
 .paragraph {
   font-size: medium;
   color: #989696;
@@ -93,7 +97,7 @@
   font-size: 50px;
   
 }
-
+/* Girl and text */
 .myImage {
   float: right;
   height: 550px;
@@ -104,3 +108,12 @@
   float:left;
   color: black;
 }
+ /* Seasonal Fruits & Veg */
+#seasonal-heading {
+  color: rgb(216, 6, 6);
+}
+
+#seasonal-fruit-table {
+  margin: 0;
+}
+
