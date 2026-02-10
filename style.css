@@ -76,4 +76,31 @@
 
 .paragraph {
   font-size: medium;
+  color: #989696;
+}
+
+.circle-Image {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  border-color: white;
+
+ }
+
+.heading {
+  float:right;
+  color: orangered;
+  font-size: 50px;
+  
+}
+
+.myImage {
+  float: right;
+  height: 550px;
+  width: 700px;
+ }
+
+.textpara {
+  float:left;
+  color: black;
 }
