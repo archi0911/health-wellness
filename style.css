@@ -12,10 +12,68 @@
 }
 
 #homepage-background {
-  background-image: url("html_task_pictures/pexels-photo-5965948.jpeg");
   min-height: 600px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
  }
+
+ #about-us {
+  border: 1px solid rgb(251, 251, 251);
+  background-color: rgb(242, 238, 236);
+  align-items: center;
+  padding-left: 15px;
+    
+ }
+
+#read-more {
+  border-color: orangered;
+  color: orangered;
+}
+
+
+.container {
+  display: flex;
+}
+
+.container div {
+  margin: 20px;
+  padding: 20px;
+  font-size: 24px;
+  height: 400px;
+}
+
+.heading {
+  font-size: large;
+}
+
+.img {
+  width: 40px;
+  height: 40px;
+}
+
+#red {
+  background-color: rgb(171, 35, 35);
+  color: white;
+  text-align: center;
+
+}
+
+#green {
+  background-color: rgb(44, 79, 44);
+  color: white;
+  text-align: center;
+
+}
+
+#black {
+  background-color: black;
+  color: white;
+  text-align: center;
+
+}
+
+.paragraph {
+  font-size: medium;
+}
