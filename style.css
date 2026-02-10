@@ -12,13 +12,28 @@
 }
 
 /* Section 1 */
-#homepage-background {
-  min-height: 600px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.section-1 {
+  background-image: url(html_task_pictures/pexels-photo-5965948.jpeg);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 80px;
+}
 
- }
+.content {
+  max-width: 500px;
+  color: white;
+}
+
+#read-more1 {
+  background-color: orangered;
+  border-color: orangered;
+  color: white;
+  height: 30px;
+  width: 100px;
+  border-radius: 20%;
+}
 
 /* Section 2  */
 /* Weightloss linked to Healthy Eating */
@@ -173,10 +188,23 @@
 
 /* About Us */
 #about-us {
-  border: 1px solid rgb(251, 251, 251);
-  background-color: rgb(242, 238, 236);
+  display: flex;
+  background: #f2eeec;
+}
+
+.about-text {
+  width: 70%;
+  padding: 20px;
+}
+
+.org-box {
+  width: 30%;
+  background: #fd4b05;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  padding-left: 15px;
-    
- }
- 
+  gap: 15px;
+}
+
+
+
