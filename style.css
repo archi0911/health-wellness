@@ -68,6 +68,23 @@
 
 }
 
+/* Section-3 */
+.orange {
+  background-color: orangered;
+  color: white;
+}
+
+#table-sec3 {
+  /* margin: 30px; */
+  padding: 60px;
+  
+}
+
+.food-icon {
+  width: 70px;
+  height: 70px;
+}
+
 /* Section 4  */
 /* 25 Simple Tips to make Your Diet Healthier */
 .paragraph {
