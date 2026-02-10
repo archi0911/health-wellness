@@ -20,28 +20,38 @@
 
  }
 
-#section-4{
-  padding-left: 120px;
-  padding-right: 120px;
+.container {
+  display: flex;
 }
 
-.flex-container {
-    display: flex; 
-    justify-content: space-around; 
-    height: 50px;
-    width: 30px;
+.container div {
+  margin: 20px;
+  padding: 20px;
+  color: #989696;
+}
+
+.circle-Image {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  border-color: white;
+
+ }
+
+.heading {
+  float:right;
+  color: orangered;
+  font-size: 50px;
   
 }
 
-.image-block {
-   height: 100%;
-   width: 70%;
-   
-}
+.myImage {
+  float: right;
+  height: 550px;
+  width: 700px;
+ }
 
-.text-block {
-  flex: 1; 
-  padding: 15px;
-  border: 1px solid #ccc;
-  background-color: rgb(242, 238, 236);
+.textpara {
+  float:left;
+  color: black;
 }
