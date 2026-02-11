@@ -11,6 +11,34 @@
   color: red;
 }
 
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 20px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 14px 16px;
+  display: block;
+}
+
+ul li a:hover {
+  background-color: #f2f2f2;
+}
+.nav li.logo {
+  margin-right: auto;
+}
+
+.navbar {
+  /* justify-content: right; */
+}
+
 /* Section 1 */
 .section-1 {
   background-image: url(html_task_pictures/pexels-photo-5965948.jpeg);
@@ -24,15 +52,18 @@
 .content {
   max-width: 500px;
   color: white;
+  font-size: larger;
 }
 
 #read-more1 {
   background-color: orangered;
   border-color: orangered;
   color: white;
-  height: 30px;
-  width: 100px;
-  border-radius: 20%;
+  font-size: large;
+  text-align: center;
+  height: 40px;
+  width: 120px;
+  /* border-radius: 40%; */
 }
 
 /* Section 2  */
@@ -88,6 +119,10 @@
   background-color: orangered;
   color: white;
 }
+.sec3-spacing {
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
 
 #table-sec3 {
   /* margin: 30px; */
@@ -131,12 +166,18 @@
 .textpara {
   float:left;
   color: black;
+  background-color: #989696;
 }
 
 /* Section-5 */
  /* Seasonal Fruits & Veg */
 #seasonal-heading {
-  color: rgb(216, 6, 6);
+  color:orangered;
+}
+
+.seasonal-space {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #seasonal-fruit-table {
@@ -147,7 +188,7 @@
   width: 250px;
   margin-bottom: 15px;
   border: 1px solid rgb(251, 251, 251);
-  background-color: rgb(253, 75, 5);
+  background-color: orangered;
   float: right;
   display: flex;
   justify-content: center;
@@ -155,9 +196,6 @@
   padding-bottom: 30px;
   
 }
-
-
-
 
 /* Section 6 */
 #section-6{
@@ -187,6 +225,16 @@
 
 
 /* About Us */
+.container-sec6 {
+  display: flex;
+}
+
+.container-sec6 div {
+  padding: 20px;
+  font-size: 24px;
+  height: 400px;
+}
+
 #about-us {
   display: flex;
   background: #f2eeec;
@@ -205,6 +253,4 @@
   align-items: center;
   gap: 15px;
 }
-
-
 
